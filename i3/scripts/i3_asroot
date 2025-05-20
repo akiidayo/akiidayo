@@ -6,7 +6,7 @@
 DIR="$HOME/.config/i3"
 
 # rofi sudo askpass helper
-export SUDO_ASKPASS="$DIR"/scripts/rofi_askpass
+export SUDO_ASKPASS=$HOME/.config/i3/scripts/rofi_askpass
 
 # execute the application
 sudo -A $1
