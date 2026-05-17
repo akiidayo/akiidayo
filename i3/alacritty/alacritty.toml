@@ -1,6 +1,6 @@
 ## Copyright (C) 2020-2024 Aditya Shakya <adi1090x@gmail.com>
 ##
-## Configuration for Alacritty, the GPU enhanced terminal emulator.
+## Configuration for ghostty, the GPU enhanced terminal emulator.
 ## It's a very basic and simple config file, for full configuration, Run `man 5 alacritty`
 
 ## GENERAL --------------------------------------------------------
@@ -27,7 +27,7 @@ ipc_socket = true
 ## All key-value pairs in the [env] section will be added as environment variables for any process spawned
 ## by Alacritty, including its shell. Some entries may override variables set by alacritty itself.
 [env]
-TERM = "alacritty"
+TERM = "ghostty"
 WINIT_X11_SCALE_FACTOR = "1.0"
 
 ## WINDOW ---------------------------------------------------------
@@ -39,7 +39,7 @@ opacity = 0.15
 blur = false
 startup_mode = "Windowed"
 dynamic_title = true
-class = { instance = "Alacritty", general = "Alacritty" }
+class = { instance = "ghostty", general = "ghostty" }
 decorations_theme_variant = "None"
 
 ## Number of lines/columns (not pixels) in the terminal.
